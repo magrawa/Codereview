@@ -3,7 +3,7 @@ from typing import TypedDict, Optional
 from langgraph.graph import StateGraph, END
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-GOOGLE_API_KEY = 'AIzaSyDzyFJy9BdqeYaHIvQhsnXP9Hr4EAFWtxk'
+GOOGLE_API_KEY = 'AIzaSyDzyFmJy9BdqeYaHIvQhsnXP9Hr4EAFWtxk'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=GOOGLE_API_KEY)
